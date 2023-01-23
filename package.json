@@ -1,0 +1,78 @@
+{
+    "name": "tact-vscode",
+    "displayName": "Tact Language Support",
+    "description": "This extension enables support for tact in VS Code.",
+    "publisher": "ton-community",
+    "icon": "icons/logo.png",
+    "version": "0.0.0",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ton-community/vscode-tact"
+    },
+    "author": {
+        "name": "Steve Korshakov (ex3ndr)",
+        "email": "steve@korshakov.com",
+        "url": "https://github.com/ex3ndr"
+    },
+    "scripts": {
+        "release": "release-it"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "tact",
+                "aliases": [
+                    "Tact",
+                    "tact"
+                ],
+                "extensions": [".tact"],
+                "configuration": "./language-configuration.json",
+                "icon": {
+                    "light": "icons/icon-light.svg",
+                    "dark": "icons/icon-dark.svg"
+                }
+            }
+        ],
+        "grammars": [
+            {
+                "language": "tact",
+                "scopeName": "source.tact",
+                "path": "./syntaxes/.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "tact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "@release-it/keep-a-changelog": "^3.1.0",
+        "release-it": "^15.6.0",
+        "vscode": "^1.1.37"
+    },
+    "release-it": {
+        "git": {
+            "commitMessage": "chore: release v${version}"
+        },
+        "github": {
+            "release": true
+        },
+        "npm": {
+            "publish": false
+        },
+        "plugins": {
+            "@release-it/keep-a-changelog": {
+                "filename": "CHANGELOG.md"
+            }
+        }
+    }
+}

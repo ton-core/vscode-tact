@@ -1,0 +1,12 @@
+**/*
+
+# Include only this files
+!LICENSE
+!CHANGELOG.md
+!package.json
+!README.md
+!language-configuration.json
+!syntaxes/
+!snippets/
+!logo.png
+!icons/

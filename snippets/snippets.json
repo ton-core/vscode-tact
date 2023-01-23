@@ -1,0 +1,22 @@
+{
+    "Contract": {
+      "prefix": ["contract"],
+      "body": ["contract $0 {", "}"],
+      "description": "A template for contract."
+    }, 
+    "@stdlib/deploy": {
+      "prefix": ["import"],
+      "body": ["import \"@stdlib/deploy\";"],
+      "description": "A template for import deploy."
+    },
+    "@stdlib/ownable": {
+      "prefix": ["import"],
+      "body": ["import \"@stdlib/ownable\";"],
+      "description": "A template for import ownable."
+    },
+    "@stdlib/stoppable": {
+      "prefix": ["import"],
+      "body": ["import \"@stdlib/stoppable\";"],
+      "description": "A template for import stoppable."
+    }
+}
