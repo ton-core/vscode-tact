@@ -516,7 +516,7 @@
 		"patterns": [
 		  {
 			"name": "keyword.control.tact",
-			"match": "\\b(if|else|while|do|until|repeat|return|extends|mutates|native|let|fun|self|is|initOf|map|get|as)\\b"
+			"match": "\\b(if|else|while|do|until|repeat|return|extends|mutates|native|let|const|fun|self|is|initOf|map|get|as)\\b"
 		  },
 		  {
 			"name": "keyword.operator",
