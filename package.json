@@ -4,7 +4,7 @@
     "description": "This extension enables support for tact in VS Code.",
     "publisher": "ton-community",
     "icon": "icons/logo.png",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -32,7 +32,9 @@
                     "Tact",
                     "tact"
                 ],
-                "extensions": [".tact"],
+                "extensions": [
+                    ".tact"
+                ],
                 "configuration": "./language-configuration.json",
                 "icon": {
                     "light": "icons/icon-light.svg",
