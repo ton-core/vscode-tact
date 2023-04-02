@@ -1,6 +1,6 @@
 # Change Log
 
-## [Unreleased]
+## [0.1.2] - 2023-04-02
 
 - Added external support
 
