@@ -1,5 +1,9 @@
 # Change Log
 
+## [Unreleased]
+
+- Updated markdown to support newer Tact versions
+
 ## [0.1.2] - 2023-04-02
 
 - Added external support
